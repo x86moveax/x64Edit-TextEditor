@@ -52,7 +52,7 @@ public class Main {
             }
         });
 
-        support.addActionListener(new ActionListener() { // функция что бы при нажатии на кнопку поддержать переходило на ютуб видео
+        support.addActionListener(new ActionListener() { 
             public void actionPerformed(ActionEvent e) {
                 try {
                     Desktop desktop = Desktop.getDesktop();
@@ -80,7 +80,7 @@ public class Main {
             }
         });
 
-        Website.addActionListener(new ActionListener() { // функция что бы при нажатии на кнопку переходила на мой супер маленький сайт на джаве для практики написал эту функцию
+        Website.addActionListener(new ActionListener() { 
             public void actionPerformed(ActionEvent e) {
                 try {
                     HttpsServer.HttpServer();
@@ -93,7 +93,7 @@ public class Main {
             }
         });
 
-        // setting for textditor that it worki    g! takiye dela
+        
         JToolBar toolBar = new JToolBar();
         fileMenu.add(openFile);
         fileMenu.add(saveFile);
